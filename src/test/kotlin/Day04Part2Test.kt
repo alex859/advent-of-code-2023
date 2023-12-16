@@ -89,6 +89,6 @@ class Day04Part2Test {
 }
 
 private val Card.id: String get()  {
-    val (id, numbers) = split(":")
+    val (id, _) = split(":")
     return id
 }
